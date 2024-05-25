@@ -1,20 +1,20 @@
 name = "Funhawg Podcast"
 description = "Two friends who like to laugh, tell stories and thoughtfully consider how to navigate this incredible planet we were born on."
-keywords = "funhawg, funhog, fun, podcast "
-image = "jake.webp"
+keywords = "funhawg, funhog, fun, podcast"
+image = "funhawg.webp"
 theme = "dark"
-primary_color = "#d81b60"
+primary_color = "#FFA9FB"
 text_align = "center"
-gtag_id = ""
-base_url = "https://funhawg.github.io/jake"
+gtag_id = "G-NSJFB4T7NT"
+base_url = "https://funhawg.com"
 
 [[sections]]
 title = "Links"
 description = "Find us on your favorite platform"
-direction = "row"
+direction = "column"
 item_style = "filled"
 [[sections.items]]
-title = "SubStack"
+title = "Blog | SubStack"
 url = "https://funhawg.substack.com/"
 [[sections.items]]
 title = "Itunes"
@@ -23,9 +23,6 @@ url = "https://podcasts.apple.com/us/podcast/funhawg-podcast/id1744215075"
 title = "Spotify"
 url = "https://open.spotify.com/show/37hYKtLSrOZTa4jLWv19Wg?si=774424872723491e"
 [[sections.items]]
-title = "YouTube"
-url = "https://www.youtube.com/channel/UCvnKwtGVcG7sY3ddfHDs1sg"
-[[sections.items]]
 title = "Instagram"
 url = "https://www.instagram.com/funhawgpodcast/"
 [[sections.items]]
@@ -33,5 +30,7 @@ title = "Facebook"
 url = "https://www.youtube.com/channel/UCvnKwtGVcG7sY3ddfHDs1sg"
 [[sections.items]]
 title = "X - Twitter"
+url = "https://x.com/funhawgpodcast"
+[[sections.items]]
+title = "YouTube"
 url = "https://www.youtube.com/channel/UCvnKwtGVcG7sY3ddfHDs1sg"
-
