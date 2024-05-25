@@ -1,45 +1,37 @@
-name = "Jake Gyllenhaal"
-description = "Accomplished actor, captivating with versatility and charisma."
-keywords = "Jake Gyllenhaal, actor, filmography, awards, versatile performances, Hollywood"
+name = "Funhawg Podcast"
+description = "Two friends who like to laugh, tell stories and thoughtfully consider how to navigate this incredible planet we were born on."
+keywords = "funhawg, funhog, fun, podcast "
 image = "jake.webp"
 theme = "dark"
 primary_color = "#d81b60"
 text_align = "center"
-gtag_id = "G-33WB8LVHR6"
-base_url = "https://thevahidal.github.io/jake"
-
-[[sections]]
-title = "Movies"
-description = "Here are some of my movies"
-direction = "column"
-item_style = "outline"
-[[sections.items]]
-title = "Nightcrawler"
-description = "A mesmerizing thriller delving into the dark world of crime journalism"
-url = "https://www.imdb.com/title/tt2872718/"
-[[sections.items]]
-title = "Brokeback Mountain"
-description = "A groundbreaking romantic drama challenging societal expectations"
-url = "https://www.imdb.com/title/tt0388795/"
-[[sections.items]]
-title = "Prisoners"
-description = "A gripping thriller entangling a detective in a web of secrets during a kidnapping investigation"
-url = "https://www.imdb.com/title/tt1392214/"
+gtag_id = ""
+base_url = "https://funhawg.github.io/jake"
 
 [[sections]]
 title = "Links"
-description = "Look for me on these websites"
+description = "Find us on your favorite platform"
 direction = "row"
 item_style = "filled"
 [[sections.items]]
+title = "SubStack"
+url = "https://funhawg.substack.com/"
+[[sections.items]]
+title = "Itunes"
+url = "https://podcasts.apple.com/us/podcast/funhawg-podcast/id1744215075"
+[[sections.items]]
+title = "Spotify"
+url = "https://open.spotify.com/show/37hYKtLSrOZTa4jLWv19Wg?si=774424872723491e"
+[[sections.items]]
+title = "YouTube"
+url = "https://www.youtube.com/channel/UCvnKwtGVcG7sY3ddfHDs1sg"
+[[sections.items]]
 title = "Instagram"
-url = "https://www.instagram.com/jakegyllenhaal"
+url = "https://www.instagram.com/funhawgpodcast/"
 [[sections.items]]
-title = "IMDb"
-url = "https://www.imdb.com/name/nm0350453/"
+title = "Facebook"
+url = "https://www.youtube.com/channel/UCvnKwtGVcG7sY3ddfHDs1sg"
 [[sections.items]]
-title = "Wikipedia"
-url = "https://en.wikipedia.org/wiki/Jake_Gyllenhaal"
-[[sections.items]]
-title = "Rotten Tomatoes"
-url = "https://www.rottentomatoes.com/celebrity/jake_gyllenhaal"
+title = "X - Twitter"
+url = "https://www.youtube.com/channel/UCvnKwtGVcG7sY3ddfHDs1sg"
+
