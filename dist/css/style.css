@@ -6,9 +6,9 @@
   margin-bottom: var(--typography-spacing-vertical);
 }
 
-.section {
+/* .section {
   margin-bottom: var(--block-spacing-vertical);
-}
+} */
 
 .items {
   display: flex;
