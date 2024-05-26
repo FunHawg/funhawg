@@ -9,14 +9,6 @@ gtag_id = "G-NSJFB4T7NT"
 base_url = "https://funhawg.com"
 
 [[sections]]
-title = "Contact Us"
-direction = "column"
-item_style = "filled"
-[[sections.items]]
-title = "Contact Form"
-url = "https://forms.gle/icjvKHMNoqKjeAwUA"
-
-[[sections]]
 title = "Links"
 description = "Find us on your favorite platform"
 direction = "column"
@@ -42,3 +34,11 @@ url = "https://x.com/funhawgpodcast"
 [[sections.items]]
 title = "YouTube"
 url = "https://www.youtube.com/channel/UCvnKwtGVcG7sY3ddfHDs1sg"
+
+[[sections]]
+title = "Contact Us"
+direction = "column"
+item_style = "filled"
+[[sections.items]]
+title = "Contact Form"
+url = "https://forms.gle/icjvKHMNoqKjeAwUA"
