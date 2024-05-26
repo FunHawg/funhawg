@@ -73,6 +73,8 @@ with open("data.toml", "rb") as f:
                 f"""
                     [data-theme="dark"], [data-theme="light"] {{
                         --primary: {data.get("primary_color", "#546e7a")} !important;
+                        --primary-hover: {data.get("primary_hover", "#546e7a")} !important;
+
                     }}
                     * {{
                         text-align: {data.get("text_align", "center")};
