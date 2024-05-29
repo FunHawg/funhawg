@@ -18,7 +18,10 @@ item_style = "filled"
 title = "Blog | SubStack"
 url = "https://funhawg.substack.com/"
 [[sections.items]]
-title = "Itunes"
+title = "Podcast | SubStack"
+url = "https://funhawg.substack.com/podcast"
+[[sections.items]]
+title = "Apple Podcast"
 url = "https://podcasts.apple.com/us/podcast/funhawg-podcast/id1744215075"
 [[sections.items]]
 title = "Spotify"
