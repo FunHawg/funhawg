@@ -8,7 +8,7 @@ primary_hover = "#FFE3BF"
 text_align = "center"
 gtag_id = "G-NSJFB4T7NT"
 base_url = "https://funhawg.com"
-
+iframe_url = "https://www.listennotes.com/podcasts/funhawg-podcast-hogging-all-the-fun-sAGdlmLDI0C/embed/"
 [[sections]]
 title = "Links"
 description = "Find us on your favorite platform"

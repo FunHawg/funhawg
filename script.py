@@ -110,9 +110,16 @@ with open("data.toml", "rb") as f:
                 ),
                 h("h1")(data.get("name")),
                 h("p")(data.get("description")) if data.get("description") else None,
+                # Add the iframe section
+                h("div", klass="iframe-section")(
+                raw(f"""
+                <iframe src="{data.get('iframe_url')}" height="400px" width="100%" style="width: 1px; min-width: 100%;" frameborder="0" scrolling="no" loading="lazy"></iframe>
+                """)
+                )
             ),
         )
     )
+
 
     footer = frag(
         h("footer", klass="container")(
