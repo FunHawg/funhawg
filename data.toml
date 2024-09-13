@@ -9,6 +9,16 @@ text_align = "center"
 gtag_id = "G-NSJFB4T7NT"
 base_url = "https://funhawg.com"
 iframe_url = "https://www.listennotes.com/podcasts/funhawg-podcast-hogging-all-the-fun-sAGdlmLDI0C/embed/"
+
+[[sections]]
+title = "Award Winning Podcast"
+description = "We were recently awarded Podcast of the Year by the Wacky Fun Magazine!"
+direction = "outline"
+[[sections.items]]
+image_url = "img/podcast-award.png"
+image_title = "Wacky Fun Magazine Award"
+image_link = "https://wackyfunmagazine.com/"
+
 [[sections]]
 title = "Links"
 description = "Find us on your favorite platform"
@@ -47,11 +57,4 @@ item_style = "filled"
 title = "Contact Form"
 url = "https://forms.gle/icjvKHMNoqKjeAwUA"
 
-[[sections]]
-title = "Award Winning Podcast"
-description = "We were recently awarded Podcast of the Year by the Wacky Fun Magazine!"
-direction = "outline"
-[[sections.items]]
-image_url = "img/podcast-award.png"
-image_title = "Wacky Fun Magazine Award"
-image_link = "https://wackyfunmagazine.com/"
+
