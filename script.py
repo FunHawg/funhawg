@@ -11,33 +11,48 @@ with open("data.toml", "rb") as f:
                 h("h3")(section.get("title")),
                 h("p")(section.get("description")),
             ),
-            h(
-                "div",
-                klass="items",
-                style=f"flex-direction: {section.get('direction', 'column')}",
-            )(
+    h(
+        "div",
+        klass="items",
+        style=f"flex-direction: {section.get('direction', 'column')}",
+    )(
+        h(
+            "div",
+            klass="item",
+            style=f"width: {'100%' if section.get('direction', 'column') == 'column' else 'unset'}",
+        )(
+            # Conditionally render the button only if title and description are present
+            (
                 h(
-                    "div",
-                    klass="item",
-                    style=f"width: {'100%' if section.get('direction', 'column') == 'column' else 'unset'}",
+                    "a",
+                    role="button",
+                    klass=f"{'outline' if section.get('item_style', 'outline') == 'outline' else ''}",
+                    href=item.get("url"),
+                    target="_blank",
                 )(
-                    h(
-                        "a",
-                        role="button",
-                        klass=f"{'outline' if section.get('item_style', 'outline') == 'outline' else ''}",
-                        href=item.get("url"),
-                        target="_blank",
-                    )(
-                        h("hgroup")(
-                            h("h4")(item.get("title")), h("h5")(item.get("description"))
-                        ),
+                    h("hgroup")(
+                        h("h4")(item.get("title")), 
+                        h("h5")(item.get("description"))
                     ),
                 )
-                for item in section["items"]
+                if item.get("title") and item.get("url") else ""
+            ),
+            # Conditionally render the image block
+            (
+                h("div", klass="centered-image")(
+                    h("a", href=item.get("image_link"), target="_blank")(
+                        h("img", src=item.get("image_url"), alt=item.get("image_title")),
+                        h("h4")(item.get("image_title")),
+                    ),
+                )
+                if item.get("image_url") else ""
             ),
         )
-        for section in data["sections"]
+        for item in section["items"]
+    ),
     )
+    for section in data["sections"]
+)
 
     meta_tags = frag(
         h("title")(data.get("name")),

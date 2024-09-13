@@ -46,3 +46,12 @@ item_style = "filled"
 [[sections.items]]
 title = "Contact Form"
 url = "https://forms.gle/icjvKHMNoqKjeAwUA"
+
+[[sections]]
+title = "Award Winning Podcast"
+description = "We were recently awarded Podcast of the Year by the Wacky Fun Magazine!"
+direction = "outline"
+[[sections.items]]
+image_url = "img/podcast-award.png"
+image_title = "Wacky Fun Magazine Award"
+image_link = "https://wackyfunmagazine.com/"
